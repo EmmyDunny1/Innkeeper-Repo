@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+  padding: 20px;
+}
+
+nav a.active {
+  border-bottom: 2px solid #000;
+  font-weight: 800;
+  padding-bottom: 25px;
+}
+
+.navbar {
+}
+header .logo {
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.bodyx {
+  display: flex;
+  background-color: rgba(211, 215, 222, 0.775);
+  height: 350px;
+  justify-content: center;
+  align-items: center;
+}
+
+.title{
+text-align: center;
+padding-bottom;
+}
