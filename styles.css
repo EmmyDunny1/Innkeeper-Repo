@@ -31,13 +31,78 @@ header .logo {
 
 .bodyx {
   display: flex;
-  background-color: rgba(211, 215, 222, 0.775);
-  height: 350px;
+  background-color: rgba(211, 215, 222, 0.7);
+  height: 400px;
   justify-content: center;
   align-items: center;
 }
 
-.title{
-text-align: center;
-padding-bottom;
+/* 
+
+
+.content {
+  margin-top: 200px;
+}
+
+::placeholder {
+  color: grey;
+}
+
+.input{
+  size:;
+} */
+
+.bodyx .content .select {
+  display: flex;
+  margin-top: 0px;
+  height: 50px;
+  border-radius: 10px;
+  margin-left: 5px;
+}
+
+.btn {
+  width: 250px;
+  border-radius: 7px;
+  background-color: rgb(191, 179, 179);
+  color: #fff;
+}
+
+#category {
+  width: 250px;
+  border-radius: 10px;
+  color: grey;
+}
+
+#location {
+  width: 250px;
+  border-radius: 10px;
+  height: 400px;
+}
+
+.content {
+  margin-top: 100px;
+}
+
+.title {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.title span {
+  font-size: 1.9rem;
+  font-weight: 900;
+}
+
+.others {
+  
+  text-align: left;
+
+}
+
+h3 {
+  padding-right: 300px;
+}
+
+ .pic_gallery1{
+display:
+
 }
